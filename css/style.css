@@ -67,15 +67,15 @@ bottom: 8%;
 
 nav li {
     margin-left: 20px;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     /* filter: drop-shadow(1px 1px 10px #133463); */
     font-family: 'Courgette', cursive;
 }
 
 .main-nav a {
-    color: #fff;
+    color: #669999;
     font-weight: bold;
-    filter: drop-shadow(1px 1px 10px #133463);
+    filter: drop-shadow(1px 1px 10px #fff);
 }
 
 li a:hover {
@@ -387,3 +387,36 @@ nav.globalMenuSp.active {
       width: 100%;
     }
   }
+
+/* topへ戻る */
+.pagetop {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+}
+.pagetop a {
+  display: block;
+  background-color: #ccc;
+  text-align: center;
+  color: #222;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 5px 10px;
+filter:alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+.pagetop a:hover {
+  display: block;
+  background-color: #b2d1fb;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  padding:5px 10px;
+filter:alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+  
