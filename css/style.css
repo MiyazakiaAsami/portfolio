@@ -62,7 +62,7 @@ header::after {
 	bottom: 0;
   left: 0;
 	content: '';
-	height: 150px;
+	height: 120px;
 	position: absolute;
 	width: 100%;
   overflow: hidden;
@@ -145,7 +145,7 @@ li a:hover {
 
   .main-nav {
     right: 5%;
-    bottom: 20%;
+    bottom: 12%;
   }
 
   .newtabicon,
@@ -154,6 +154,9 @@ li a:hover {
     width: 15px;
   }
 
+  header::after {
+    height: 60px;
+  }
 }
 
 
